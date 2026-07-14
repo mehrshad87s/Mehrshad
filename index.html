@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mehrshad | Future Developer</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Tahoma;
+}
+
+body{
+background:linear-gradient(135deg,#0f172a,#1e3a8a,#2563eb);
+color:white;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:25px 60px;
+background:rgba(255,255,255,.05);
+backdrop-filter:blur(12px);
+position:sticky;
+top:0;
+}
+
+.logo{
+font-size:30px;
+font-weight:bold;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-size:18px;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.hero h1{
+font-size:65px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:22px;
+max-width:700px;
+line-height:1.8;
+margin-bottom:40px;
+}
+
+.btn{
+background:#38bdf8;
+padding:18px 45px;
+border:none;
+border-radius:40px;
+font-size:20px;
+cursor:pointer;
+transition:.3s;
+}
+
+.btn:hover{
+transform:scale(1.08);
+background:#0ea5e9;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+padding:60px;
+}
+
+.card{
+background:rgba(255,255,255,.08);
+padding:30px;
+border-radius:20px;
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+background:rgba(255,255,255,.15);
+}
+
+.card h2{
+margin-bottom:15px;
+}
+
+footer{
+margin-top:50px;
+padding:25px;
+text-align:center;
+background:rgba(0,0,0,.3);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">MEHRSHAD</div>
+
+<nav>
+<a href="#">خانه</a>
+<a href="#">درباره من</a>
+<a href="#">پروژه‌ها</a>
+<a href="#">تماس</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>سلام، من مهرشاد هستم 👋</h1>
+
+<p>
+به وب‌سایت شخصی من خوش آمدید.
+اینجا پروژه‌های برنامه‌نویسی، طراحی وب و مسیر یادگیری من را مشاهده می‌کنید.
+</p>
+
+<button class="btn" onclick="welcome()">
+شروع کنید
+</button>
+
+</section>
+
+<section class="cards">
+
+<div class="card">
+<h2>💻 برنامه‌نویسی</h2>
+<p>طراحی وب با HTML، CSS، JavaScript و Python.</p>
+</div>
+
+<div class="card">
+<h2>🚀 پروژه‌ها</h2>
+<p>نمونه پروژه‌های شخصی و حرفه‌ای.</p>
+</div>
+
+<div class="card">
+<h2>🎯 هدف</h2>
+<p>یادگیری، ساخت محصولات حرفه‌ای و پیشرفت مداوم.</p>
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Mehrshad.com
+
+</footer>
+
+<script>
+
+function welcome(){
+alert("به سایت حرفه‌ای Mehrshad خوش آمدید 🚀");
+}
+
+</script>
+
+</body>
+
+</html>
